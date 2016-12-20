@@ -105,7 +105,7 @@ var imgZoom = React.createClass({
 						}
 						t.setStyle(image,Style.image);
 						t.setStyle(image,adjustPosition);
-						t.refs.imgZoom.getDOMNode().appendChild(image);
+						t.refs.imgZoom.appendChild(image);
 					};
 					image.src = src;
 				},
