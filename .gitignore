@@ -1,9 +1,8 @@
 node_modules/
-.sass-cache/
 .deploy/
 design/
 .idea/
-src/**/*.map
+src/*.map
 docs/
 mock/
 # Packages #

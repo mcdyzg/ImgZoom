@@ -1,3 +1,5 @@
+var React = require('react')
+var ReactDOM = require('react-dom')
 var addEvent = require('domkit/addEventListener.js');
 var removeEvent = require('domkit/removeEventListener.js');
 var insertKeyframesRule =require('domkit/insertKeyframesRule');
