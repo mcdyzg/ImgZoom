@@ -1,8 +1,17 @@
-var React = require('react')
-var ReactDOM = require('react-dom')
-var ImgZoom = require('../src/imgZoom.js');
+## imgZoom ##
 
-var App = React.createClass({
+一个react图片全屏展示组件
+
+### Usage ###
+
+1. npm install
+2. gulp watch
+
+## exam ##
+	var React = require('react')
+	var ReactDOM = require('react-dom')
+	var ImgZoom = require('../src/imgZoom.js');
+	var App = React.createClass({
 
     render: function() {
         var t = this;
@@ -15,5 +24,8 @@ var App = React.createClass({
             </div>
         );
     }
-});
-ReactDOM.render(<App />, document.getElementById('AppContainer'));
+	});
+	ReactDOM.render(<App />, document.getElementById('AppContainer'));
+
+1. add `<ImgZoom ref='imgZoom' />`
+2. add `data-toggle='imgZoom'` in `<img />` or `<div></div>`with background-image.
